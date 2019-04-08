@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App-header,
+.App-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.App-header {
+  min-height: 35vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #3d5afe;
+}
+
+.App-footer {
+    min-height: 65vh;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.App-footer img {
+    width: 585px;
+}
+
+.App-link {
+  color: #3d5afe;
+}
